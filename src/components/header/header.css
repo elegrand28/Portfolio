@@ -1,0 +1,57 @@
+header{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header_container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.downloadcv{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+
+.me{
+    background: var(--color-primary);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+}
+
+.header_container p{
+    margin-top: -2.5rem;
+}
+
+.header_container h5{
+    text-shadow: 0.03em 0.03em var(--color-primary-variant);
+}
+
+/*======================== HeaderSocial.jsx ========================*/
+
+.header_social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 0;
+    top: 34rem;
+    margin-left: 15rem;
+    color: var(--color-white);
+}
+
+.header_social:after{
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary-variant);
+}

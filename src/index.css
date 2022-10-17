@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "monaco", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-color: var(--color-bg-variant);
+}
+
+:root{
+  --color-bg: #111;
+  --color-bg-variant: #17173a;
+  --color-primary: #1d438c;
+  --color-primary-variant: #19aecb;
+  --color-white: #fff;
+  --color-light: rgba(255,255,255,0.6);
+  --color-separator: #2a64c9;
+  --transition: all 400ms ease;
+}
+
+code {
+  font-family: "monaco", sans-serif;
+}
+
+.btn{
+  width: max-content;
+  display: inline-block;
+  color: var(--color-bg);
+  background-color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.btn:after{
+  content:"";
+  position: absolute;
+  height: 900%;
+  width: 200%;
+  background: var(--color-primary-variant);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
+  transform: translateX(-100%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after{
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.btn-retour{
+  margin-top: -6rem;
+}
+
+.retour{
+  height: 4rem;
+  margin-top: -6rem;
+}
+
+.retour:hover{
+  background: rgba(0,0,0);
+  border-radius: 100%;
+}
+
+.separateur{
+  height: 2px;
+  background-color: var(--color-separator);
+  margin: 0;
+  width: 100%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+.progress_wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.progress_bar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background-color: white ;
+}
+
+a{
+  font-size: 1.5vw;
+}

@@ -1,0 +1,24 @@
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .slide{
+    height: 80vh;
+    margin-bottom: -20%;
+}
+
+.carousel .slide img{
+    max-height: 100%;
+    width: auto
+}
+
+.image{
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.experience-container h5{
+    text-shadow: 0.03em 0.03em var(--color-primary-variant);
+}

@@ -1,0 +1,31 @@
+.logo-discord{
+    width: 100%;
+    text-align: center;
+    font-size: 500%;
+    color: #758add;
+}
+
+.day{
+    width: 100%;
+    text-align: center;
+}
+
+.day-Image{
+    display: inline-block;
+    height: auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.day-Image .image{
+    width: 13rem;
+}
+
+.fleche{
+    width: 10rem;
+}
+
+.dev{
+    width: 15rem;
+}

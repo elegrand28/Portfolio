@@ -1,0 +1,32 @@
+footer{
+    background: var(--color-primary-variant);
+    padding: 6rem 0;
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 1.5rem;   
+}
+
+footer a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: var(--color-light);
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
+footer pf{
+    font-size: 1vw;
+}
+
+.links a{
+    font-size: 1vw;
+}

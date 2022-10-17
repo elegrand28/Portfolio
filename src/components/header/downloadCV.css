@@ -1,0 +1,6 @@
+p1{
+    position: relative;
+    color: var(--color-white);
+    font-size: 1.25vw;
+    z-index: 1;
+}
