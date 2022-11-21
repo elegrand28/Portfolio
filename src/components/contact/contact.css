@@ -1,0 +1,85 @@
+.contact_container{
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    margin-left: 12rem;
+    position: relative;
+}
+
+.contact_option{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact_container p{
+    font-size: 1vw;
+}
+
+.contact_container h4{
+    font-size: 1.25vw;
+}
+
+.contact_mail{
+    background: var(--color-primary-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.contact_mail:hover{
+    background: var(--color-primary);
+    border-color: var(--color-bg-variant);
+}
+
+.contact-container h5{
+    text-shadow: 0.03em 0.03em var(--color-primary-variant);
+}
+
+.localisation{
+    background: var(--color-primary-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.localisation:hover{
+    background: var(--color-primary);
+    border-color: var(--color-bg-variant);
+}
+
+/*==================================== FORM =========================================*/
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    
+}
+
+input,
+textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    resize: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-primary p2{
+    color: white;
+    position: relative;
+    z-index: 1;
+}

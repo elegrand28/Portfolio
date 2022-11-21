@@ -1,0 +1,63 @@
+.languages{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+.language{
+    background-color: var(--color-primary);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    color: var(--color-white);
+}
+
+.language:after{
+    content:"";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 350%;
+    width: 140%;
+    background: var(--color-primary-variant);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
+    transform: translateX(-100%) translateY(-25%) rotate(45deg);
+}
+
+.language:hover:after{
+    -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+    transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.competences-container h5{
+    text-shadow: 0.03em 0.03em var(--color-primary-variant);
+}
+h5{
+    font-size: 4vw;
+    text-align: center;
+    color: var(--color-white);
+    margin-top: -1rem;
+}
+
+h4{
+    position: relative;
+    z-index: 1;
+    margin-bottom: -2.5rem;
+}
+
+h3{
+    position: relative;
+    z-index: 1;
+    font-size: 3vw;
+    margin-top: -1.5rem;
+    margin-bottom: -1.5rem;
+}
+
+.progressBar{
+    position: relative;
+    z-index: 1;
+}
