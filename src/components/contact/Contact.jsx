@@ -29,15 +29,15 @@ const Contact = () => {
                 <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
                     <div className="contact_container">
                         <div className="contact_option">
-                            <a href="mailto:elegrand.ledantec@gmail.com">
+                            <p href="mailto:elegrand.ledantec@gmail.com">
                                 <article className="contact_mail">    
                                     <GoMail />                 
                                     <h4>Mail</h4>
                                     <br/>
                                     <p>elegrand.ledantec@gmail.com</p>                      
                                 </article>
-                            </a>
-                            <a href="https://www.google.com/maps/place/22300+Lannion/@48.7454266,-3.5397786,12z/data=!3m1!4b1!4m5!3m4!1s0x48122b8ac523c539:0x40ca5cd36e63400!8m2!3d48.732084!4d-3.459144">
+                            </p>
+                            <p href="https://www.google.com/maps/place/22300+Lannion/@48.7454266,-3.5397786,12z/data=!3m1!4b1!4m5!3m4!1s0x48122b8ac523c539:0x40ca5cd36e63400!8m2!3d48.732084!4d-3.459144">
                                 <article className="localisation">
         
                                     <GoLocation/>
@@ -49,7 +49,7 @@ const Contact = () => {
                                     </div>
         
                                 </article>
-                            </a>
+                            </p>
                         </div>
                         <form ref={form} onSubmit={sendEmail}>             {/*Formulaire passe par EmailJS pour envoyer un mail*/}
                             <input type="text" name='name' placeholder='Nom' required />

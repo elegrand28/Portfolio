@@ -11,11 +11,11 @@ const Nav = () => {
     const [activeNav, setActiveNav] = useState('#')
     return (
         <nav>
-            <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiHomeAlt/></a>
-            <a href="#header" onClick={() => setActiveNav('#header')} className={activeNav === '#header' ? 'active' : ''}><BsFillPersonFill/></a>
-            <a href="#competences" onClick={() => setActiveNav('#competences')} className={activeNav === '#competences' ? 'active' : ''}><RiComputerLine/></a>
-            <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><RiSuitcaseLine/></a>
-            <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BsTelephone/></a>
+            <p href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><BiHomeAlt/></p>
+            <p href="#header" onClick={() => setActiveNav('#header')} className={activeNav === '#header' ? 'active' : ''}><BsFillPersonFill/></p>
+            <p href="#competences" onClick={() => setActiveNav('#competences')} className={activeNav === '#competences' ? 'active' : ''}><RiComputerLine/></p>
+            <p href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><RiSuitcaseLine/></p>
+            <p href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BsTelephone/></p>
         </nav>
     );
 }

@@ -5,7 +5,7 @@ import './downloadCV.css'
 const DownloadCV = () => {
     return(
         <div className="download">
-            <a href={CV} download className="btn"><p1>Télécharger CV</p1></a>
+            <p href={CV} download className="btn"><p1>Télécharger CV</p1></p>
         </div>
     );
 }
