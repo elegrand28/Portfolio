@@ -6,10 +6,10 @@ const Footer = () => {
     return (
         <footer>
             <ul className="links">
-                <ul><P href="#">Home</P></ul>
-                <ul><P href="#competences">Compétences</P></ul>
-                <ul><P href="#experience">Expériences</P></ul>
-                <ul><P href="#contact">Contact</P></ul>
+                <ul><p href="#">Home</p></ul>
+                <ul><p href="#competences">Compétences</p></ul>
+                <ul><p href="#experience">Expériences</p></ul>
+                <ul><p href="#contact">Contact</p></ul>
             </ul>
             <Link to="/about">A propos</Link>
             <br/>
