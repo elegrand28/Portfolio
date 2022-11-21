@@ -11,12 +11,12 @@ function Navbar() {
             <div className='nav-items'>
                 <Link to="/synapsy">
                     <div className='item'>
-                        <a>Stage première année</a>
+                        <p>Stage première année</p>
                     </div>
                 </Link>
                 <Link to="/stage2">
                     <div className='item'>
-                        <a>Stage deuxième année</a>
+                        <p>Stage deuxième année</p>
                     </div>
                 </Link>
             </div>
